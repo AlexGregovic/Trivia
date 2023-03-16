@@ -55,6 +55,160 @@ const quizData = [
     c: "Barcelona",
     d: "Chelsea",
     correct: "a"
+    }, {
+        question: "What does WWW stand for in a website browser?",
+        a: "World Wide Web",
+        b: "World Websites Wiki",
+        c: "Watson Wyatt Worldwide",
+        d: "Internet explorer",
+        correct: "a"
+    }, {
+        question: "Which is the only edible food that never goes bad?",
+        a: "garlick",
+        b: "onion",
+        c: "honey",
+        d: "salted meat",
+        correct: "c"
+    }, {
+        question: "How many colors are there in the rainbow?",
+        a: "5",
+        b: "7",
+        c: "9",
+        d: "11",
+        correct: "b"
+    }, {
+        question: "What is Earth's largest continent?",
+        a: "Europe",
+        b: "North America",
+        c: "Afrika",
+        d: "Asia",
+        correct: "d"
+    }, {
+        question: "What is the smallest planet in our solar system?",
+        a: "Earth",
+        b: "Mercury",
+        c: "Neptun",
+        d: "Uranus",
+        correct: "b"
+    }, {
+        question: "What is the capital city of Japan?",
+        a: "Shanghai",
+        b: "Seoul",
+        c: "Tokyo",
+        d: "Uranus",
+        correct: "c"
+    }, {
+        question: "What is the highest mountain in Africa?",
+        a: "Mount Kilimanjaro",
+        b: "Mount Everest",
+        c: "Mount McKinley",
+        d: "Mount Aconcagua",
+        correct: "a"
+    }, {
+        question: "What is the capital of Turkmenistan?",
+        a: "Tashkent",
+        b: "Ashgabat",
+        c: "Bishkek",
+        d: "Dushanbe",
+        correct: "b"
+    }, {
+        question: "Which city is located on two continents?",
+        a: "Istanbul",
+        b: "Rome",
+        c: "Madrid",
+        d: "Paris",
+        correct: "a"
+    }, {
+        question: "Which European country is divided into departments, not states or provinces?",
+        a: "Spain",
+        b: "Italy",
+        c: "Portugal",
+        d: "France",
+        correct: "d"
+    }, {
+        question: "Which country is the largest in terms of land area?",
+        a: "Canada",
+        b: "China",
+        c: "Russia",
+        d: "United States",
+        correct: "c"
+    }, {
+        question: "What is the smallest ocean in the world?",
+        a: "Indian Ocean",
+        b: "Arctic Ocean",
+        c: "Southern Ocean",
+        d: "Atlantic Ocean",
+        correct: "c"
+    }, {
+        question: "Which country has won the most World Cup titles in men's soccer?",
+        a: "Argentina",
+        b: "Brazil",
+        c: "Italy",
+        d: "Germany",
+        correct: "b"
+    }, {
+        question: "Which boxer is known as The Greatest?",
+        a: "Sugar Ray Leonard",
+        b: "Floyd Mayweather Jr",
+        c: "Muhammad Ali",
+        d: "Mike Tyson",
+        correct: "c"
+    }, {
+        question: "Which country hosted the first modern Olympic Games in 1896?",
+        a: "Greece",
+        b: "France",
+        c: "United Kingdom",
+        d: "United States",
+        correct: "a"
+    }, {
+        question: "Which tennis player has won the most Grand Slam singles titles in men's tennis history?",
+        a: "Rafael Nadal",
+        b: "Roger Federer",
+        c: "Novak Djokovic",
+        d: "Pete Sampras",
+        correct: "b"
+    }, {
+        question: "Which country gifted the Statue of Liberty to the United States?",
+        a: "France",
+        b: "Italy",
+        c: "Spain",
+        d: "United Kingdom",
+        correct: "a"
+    }, {
+        question: "Who is credited with inventing the telephone?",
+        a: "Thomas Edison",
+        b: "Alexander Graham Bell",
+        c: "Albert Einstein",
+        d: "Nikola Tesla",
+        correct: "b"
+    }, {
+        question: "Who was the first person to step foot on the moon?",
+        a: "Buzz Aldrin",
+        b: "Michael Collins",
+        c: "Neil Armstrong",
+        d: "Yuri Gagarin",
+        correct: "c"
+    }, {
+        question: "Which club has won the most UEFA Champions League titles in history?",
+        a: "Real Madrid",
+        b: "Barcelona",
+        c: "Liverpool",
+        d: "AC Milan",
+        correct: "a"
+    }, {
+        question: "Who won the Ballon d'Or award for the best male footballer in 2021?",
+        a: "Lionel Messi",
+        b: "Cristiano Ronaldo",
+        c: "Robert Lewandowski",
+        d: "Kylian Mbape",
+        correct: "c"
+    }, {
+        question: "Who is the most successful manager in the history of the English Premier League?",
+        a: "Sir Alex Ferguson",
+        b: "Arsène Wenger",
+        c: "José Mourinho",
+        d: "Pep Guardiola",
+        correct: "a"
     }
 ];
 const quiz = document.getElementById("quiz");
@@ -103,7 +257,7 @@ background.addEventListener("click", function onClick(event) {
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
 
-const MAX_QUESTIONS = 8;
+const MAX_QUESTIONS = 30;
 
 
 let currentQuiz = 0;
