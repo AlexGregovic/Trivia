@@ -54,7 +54,7 @@ const quizData = [
     b: "Real Madrid",
     c: "Barcelona",
     d: "Chelsea",
-    correct: "a"
+    correct: "b"
     }, {
         question: "What does WWW stand for in a website browser?",
         a: "World Wide Web",
