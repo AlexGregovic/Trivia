@@ -23,7 +23,7 @@ body {
     background-color: beige;
     border-radius: 15px 15px 0 0;
     box-shadow: 0 0 10px 5px rgba(14, 14, 14, 0.1);
-    width: 600px;
+    min-width: 20%;
     max-width: 100%;
     padding: 2rem;
 }
@@ -153,11 +153,10 @@ button:focus {
 h3 {
     position: absolute;
     top: 0;
-    font-size: 4rem;
+    font-size: clamp(30px, 4vw, 4rem);
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     background: #515ada, purple, red;
 letter-spacing: 5px;
-animation: gradient 10% linear infinite;
 }
